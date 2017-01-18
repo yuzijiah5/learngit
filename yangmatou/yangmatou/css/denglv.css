@@ -1,0 +1,298 @@
+
+
+.topbar{
+	width:100%;
+	height:98px;
+	border-bottom:2px solid #c33;
+	}
+.topbar .topbar1{
+	width:1000px;
+	height:98px;
+	padding:0px 5px;
+	margin:0 auto;
+	}
+	
+.topbar .topbar1 .left{float:left;}
+
+.topbar .topbar1 .left .logo{
+	display:block;float:left;
+	width:311px;height:73px;
+    background:url(../img/denglv/logo.png);
+    margin:12px 0 13px;
+	}
+
+
+.topbar .topbar1 .right{
+    padding-top:40px;
+    float:right;
+    line-height:30px;
+    }
+.topbar .topbar1 .right .item{
+	float:left;
+    padding:0 8px;
+    color:#999;
+	}
+
+.topbar .topbar1 .right .item:hover{color:blue;}
+.topbar .topbar1 .right .item:hover .topDownName span{color:blue;}
+.topbar .topbar1 .right .topDown{
+	position:relative;
+    padding:0;
+    margin:1px 8px 0;
+    z-index:110;
+    width:65px;
+    
+    }
+
+.topbar .topbar1 .right .topDown .topDownName{
+	position:absolute;
+	top:-1px;
+	width:76px;
+	display:block;
+    line-height:29px;
+    height:29px;
+    border: 1px solid #fff;
+    z-index:150;
+    font-size:12px;
+    background:#fff;
+	}
+
+
+
+.topbar .topbar1 .right .topDown .topDownName span{    
+	display:inline-block;
+    vertical-align:top;
+    color:#999;
+    margin-left:5PX;
+    }
+.topbar .topbar1 .right .topDown .topDownName .jiao{
+	height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    display: inline-block;
+    border-width: 3px;
+    border-style: solid dashed dashed dashed;
+    border-color: #666 transparent transparent transparent;
+    margin: 6px 3px 0;
+	}
+	
+.topbar .topbar1 .right .topDown .downList{
+	border: 1px solid #666;
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    left: 0;
+    z-index: 101;
+    top: 30px;
+    line-height: 18px;
+    overflow: hidden;
+	}
+	
+	
+.topbar .topbar1 .right .topDown .downList ul li{
+	border-bottom: 1px dashed #ddd;
+    padding: 5px 8px;
+    margin-bottom: -1px;
+    }
+.topbar .topbar1 .right .topDown .downList ul li a{color:#666;}	
+	
+.topbar .topbar1 .right #quickLogin .downList{width:94px;}
+.topbar .topbar1 .right #quickLogin .downList ul li{width:78px;}
+.topbar .topbar1 .right #myMaTou .downList{width:76px;}
+.topbar .topbar1 .right #myMaTou .downList ul li{width:74px;}
+
+
+.wrapper{width:100%;padding-top:50px;}
+.wrapper .wrapper1{width:900px;margin:0 auto;height:450px;}
+.wrapper .wrapper1 .loginImg{    
+	width: 452px;
+    height: 260px;
+    margin-top: 30px;
+    float: left;
+    }
+.wrapper .wrapper1 .loginImg .Img{
+	background:url(../img/denglv/1.jpg) no-repeat;
+	display:block;
+	width:452px;
+	height:260px;
+	}
+.wrapper .wrapper1 .divInput{    
+	width: 360px;
+    float: right;
+    }
+
+.wrapper .wrapper1 .divInput a:hover{color:#CC3333;}
+
+
+.wrapper .wrapper1 .divInput ul .garyF1{
+	font-size: 14px;
+    color: #666;
+    text-align: left;
+	}
+
+.wrapper .wrapper1 .divInput ul .garyF1 .line{    
+	border-left: 1px solid #ccc;
+    width: 1px;
+    height: 13px;
+    vertical-align: middle;
+    display:inline-block;
+    }
+.wrapper .wrapper1 .divInput ul .garyF1 a:hover{color:#CC3333;}
+
+.wrapper .wrapper1 .divInput ul .inputLogin{
+    width: 360px;
+    border: 1px solid #ccc;
+    background-color:#efefef;
+    margin: 5px 0 1px;
+    }
+       
+    
+.wrapper .wrapper1 .divInput ul .inputLogin .log{
+   	width: 350px;
+    margin: 5px;
+    padding: 30px 0;
+    text-align: center;
+    background-color: #fff;
+   }
+   
+
+.wrapper .wrapper1 .divInput ul .inputLogin #inputBox .usera{
+	font-size: 14px;
+    color: #333;
+    
+}
+
+.wrapper .wrapper1 .divInput ul .inputLogin #inputBox .smallBox{   
+	height: 28px;
+    width: 300px;
+    margin: 0 auto 15px;
+    }
+
+.wrapper .wrapper1 .divInput ul .inputLogin #inputBox .smallBox .inputStyle{
+	width: 200px;
+    height: 26px;
+    border: 1px solid #dadada;
+    border-top: 1px solid #bababa;
+}
+.wrapper .wrapper1 .divInput ul .inputLogin #inputBox .smallBox .blue{
+	color:blue;
+	cursor:pointer;	
+}
+
+
+.wrapper .wrapper1 .divInput ul .inputLogin #inputBox .smallBox .checkBox{
+	float: left;
+    margin-left:68px;
+}
+.wrapper .wrapper1 .divInput ul .inputLogin #inputBox .smallBox .checkBox #check{
+	vertical-align: middle;
+}
+
+.wrapper .wrapper1 .divInput ul .inputLogin #inputBox .smallBox .jinggao{
+	height: 26px;
+    background-color: #f04e00;
+    font-size: 12px;
+    color: #fff;
+    line-height: 26px;
+    padding-left: 7px;
+    width: 200px;
+    margin-left: 68px;
+}
+
+.wrapper .wrapper1 .divInput ul .inputLogin #inputBox .smallBox #loginDiv{
+	text-align: left;
+    margin-left: 68px;
+    }
+    
+.wrapper .wrapper1 .divInput ul .inputLogin #inputBox .smallBox #loginDiv #loginbtn{
+	width: 67px;
+    height: 30px;
+    background:url(../img/denglv/denglv.png);
+    cursor: pointer;
+    display:inline-block;
+}    
+.wrapper .wrapper1 .divInput ul .inputLogin #inputBox .smallBox #loginDiv .forgetPwd{
+   	margin-left: 20px;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: top;
+   } 
+    
+.wrapper .wrapper1 .divInput ul .inputLogin #lineLine{
+	margin: 0 auto 15px;
+    font-size: 0;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #fff;
+    width: 280px;
+}   
+.wrapper .wrapper1 .divInput ul .inputLogin .link{
+	width: 300px;
+    height: 28px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}  
+ 
+.wrapper .wrapper1 .divInput ul .inputLogin .link li{
+	margin-right: 6px;
+    height: 18px;
+    line-height: 18px;
+    display: inline-block;
+}   
+ 
+ 
+.wrapper .wrapper1 .divInput ul .inputLogin .link li .xinlang{
+	display: inline-block;
+    width: 80px;
+}   
+.wrapper .wrapper1 .divInput ul .inputLogin .link li .xinlang i{
+	width: 20px;
+    background-image:url(../img/denglv/linkImg.png);
+    background-repeat: no-repeat;
+    background-position: -86px -235px;
+    height: 20px;
+    float: left;
+}
+    
+.wrapper .wrapper1 .divInput ul .inputLogin .link li .line{
+	border-left: 1px solid #ccc;
+    width: 1px;
+    height: 13px;
+    vertical-align:middle;
+    display:inline-block;
+}    
+
+.wrapper .wrapper1 .divInput ul .inputLogin .link li .zhifubao i{
+	display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+        width: 20px;
+    height: 16px;
+    background: url(../img/denglv/linkImg.png) -62px -235px;
+    background-repeat: no-repeat;
+}   
+    
+    
+.wrapper .wrapper1 .divInput ul .inputLogin .link li .weixin i{    
+	display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+	width: 23px;
+    height: 20px;
+    background:url(../img/denglv/weixin.png);
+    background-repeat: no-repeat;
+}
+
+.copywrite{width:100%;margin-top: 10px;overflow: hidden;}
+.copywrite .copywrite1{
+	width:900px;
+	margin:0 auto;
+	
+	font: normal 12px/1.5 Microsoft yahei,Arial;
+    color: #666;
+    text-align: center;
+    word-wrap: break-word;
+    }
+ 
